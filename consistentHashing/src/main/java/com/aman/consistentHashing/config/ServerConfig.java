@@ -1,12 +1,16 @@
 package com.aman.consistentHashing.config;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Data
-public class serverConfig {
+@EqualsAndHashCode
+public class ServerConfig {
     
     private String serverIp;
     private String servicePort;
+
+
 
 
 }
